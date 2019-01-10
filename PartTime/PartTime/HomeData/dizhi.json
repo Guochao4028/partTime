@@ -1,0 +1,208 @@
+{
+	"locations": {
+		"location": [{
+			"id": "anywherecanadapreferred",
+			"name": "Anywhere, \"Canada Preferred\"",
+			"count": 1
+		}, {
+			"id": "anywhereintheuk",
+			"name": "Anywhere in the UK",
+			"count": 1
+		}, {
+			"id": "anywhereintheus",
+			"name": "Anywhere in the US",
+			"count": 1
+		}, {
+			"id": "bostonmassachusetts",
+			"name": "Boston, Massachusetts",
+			"count": 1
+		}, {
+			"id": "bostonmaus",
+			"name": "Boston, MA",
+			"city": "Boston, MA",
+			"country": "US",
+			"lat": "42.3584",
+			"lng": "-71.0598",
+			"state": "MA",
+			"count": 1
+		}, {
+			"id": "bouldercous",
+			"name": "Boulder, Colorado",
+			"city": "Boulder, Colorado",
+			"country": "US",
+			"lat": "40.015",
+			"lng": "-105.271",
+			"state": "CO",
+			"count": 1
+		}, {
+			"id": "brooklynnyus",
+			"name": "Brooklyn, NY",
+			"city": "Brooklyn, NY",
+			"country": "US",
+			"lat": "40.6501",
+			"lng": "-73.9496",
+			"state": "NY",
+			"count": 1
+		}, {
+			"id": "burlingtonvtus",
+			"name": "Burlington, VT",
+			"city": "Burlington, VT",
+			"country": "US",
+			"lat": "44.4759",
+			"lng": "-73.2121",
+			"state": "VT",
+			"count": 1
+		}, {
+			"id": "chicagoilus",
+			"name": "Chicago, IL",
+			"city": "Chicago, IL",
+			"country": "US",
+			"lat": "41.85",
+			"lng": "-87.65",
+			"state": "IL",
+			"count": 2
+		}, {
+			"id": "copenhagendk",
+			"name": "Copenhagen, Denmark",
+			"city": "Copenhagen, Denmark",
+			"country": "DK",
+			"lat": "55.6759",
+			"lng": "12.5655",
+			"count": 1
+		}, {
+			"id": "deerparkil",
+			"name": "Deer Park, IL",
+			"count": 1
+		}, {
+			"id": "denvercous",
+			"name": "Denver, CO",
+			"city": "Denver, CO",
+			"country": "US",
+			"lat": "39.7392",
+			"lng": "-104.985",
+			"state": "CO",
+			"count": 1
+		}, {
+			"id": "indianapolispreferred",
+			"name": "Indianapolis preferred",
+			"count": 1
+		}, {
+			"id": "kansascitymous",
+			"name": "Kansas City, MO",
+			"city": "Kansas City, MO",
+			"country": "US",
+			"lat": "39.0997",
+			"lng": "-94.5786",
+			"state": "MO",
+			"count": 1
+		}, {
+			"id": "mckinneytxus",
+			"name": "McKinney, TX",
+			"city": "McKinney, TX",
+			"country": "US",
+			"lat": "33.1976",
+			"lng": "-96.6153",
+			"state": "TX",
+			"count": 1
+		}, {
+			"id": "newyorknyus",
+			"name": "New York, NY",
+			"city": "New York, NY",
+			"country": "US",
+			"lat": "40.7143",
+			"lng": "-74.006",
+			"state": "NY",
+			"count": 6
+		}, {
+			"id": "northamerica",
+			"name": "North America",
+			"city": "North America",
+			"country": "",
+			"lat": "46.0732",
+			"lng": "-100.547",
+			"count": 1
+		}, {
+			"id": "oklahomacityokus",
+			"name": "Oklahoma City, OK",
+			"city": "Oklahoma City, OK",
+			"country": "US",
+			"lat": "35.4676",
+			"lng": "-97.5164",
+			"state": "OK",
+			"count": 1
+		}, {
+			"id": "parsippanynjus",
+			"name": "Parsippany, NJ",
+			"city": "Parsippany, NJ",
+			"country": "US",
+			"lat": "40.8579",
+			"lng": "-74.426",
+			"state": "NJ",
+			"count": 1
+		}, {
+			"id": "pleasantoncaus",
+			"name": "Pleasanton, CA",
+			"city": "Pleasanton, CA",
+			"country": "US",
+			"lat": "37.6624",
+			"lng": "-121.875",
+			"state": "CA",
+			"count": 1
+		}, {
+			"id": "sanfrancisco",
+			"name": "San Francisco",
+			"count": 1
+		}, {
+			"id": "sanfranciscocaus",
+			"name": "San Francisco, CA",
+			"city": "San Francisco, CA",
+			"country": "US",
+			"lat": "37.7749",
+			"lng": "-122.419",
+			"state": "CA",
+			"count": 3
+		}, {
+			"id": "troymius",
+			"name": "Troy, MI",
+			"city": "Troy, MI",
+			"country": "US",
+			"lat": "42.6056",
+			"lng": "-83.1499",
+			"state": "MI",
+			"count": 1
+		}, {
+			"id": "wacotxus",
+			"name": "Waco, TX",
+			"city": "Waco, TX",
+			"country": "US",
+			"lat": "31.5493",
+			"lng": "-97.1467",
+			"state": "TX",
+			"count": 1
+		}, {
+			"id": "washingtondcus",
+			"name": "Washington, D.C.",
+			"city": "Washington, D.C.",
+			"country": "US",
+			"lat": "38.8951",
+			"lng": "-77.0364",
+			"state": "DC",
+			"count": 1
+		}, {
+			"id": "woodstockgaus",
+			"name": "Woodstock, GA",
+			"city": "Woodstock, GA",
+			"country": "US",
+			"lat": "34.1015",
+			"lng": "-84.5194",
+			"state": "GA",
+			"count": 1
+		}, {
+			"id": "zrichswitzerland",
+			"name": "Z\u00fcrich, Switzerland",
+			"count": 1
+		}],
+		"last_update": "2018-12-27T10:14:12-06:00"
+	},
+	"stat": "ok"
+}

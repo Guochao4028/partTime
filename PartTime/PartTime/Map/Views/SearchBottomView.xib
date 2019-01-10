@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchBottomView">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="86K-MR-9Hh"/>
+                <outlet property="doneButton" destination="Jbf-YH-Xty" id="EyD-A5-3hG"/>
+                <outlet property="numberJobLabel" destination="Xr5-yv-VRR" id="XE0-jA-8Wy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 job match available" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xr5-yv-VRR">
+                    <rect key="frame" x="16" y="25" width="167" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.016116820279999999" green="0.43804180619999999" blue="0.93537318709999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbf-YH-Xty">
+                    <rect key="frame" x="188" y="14" width="173" height="40"/>
+                    <color key="backgroundColor" red="0.16297918558120728" green="0.49375271797180176" blue="0.9490545392036438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Owc-Xw-fc9"/>
+                        <constraint firstAttribute="width" constant="173" id="lUq-Da-twp"/>
+                    </constraints>
+                    <state key="normal" title="Done">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="doneAction:" destination="-1" eventType="touchUpInside" id="22z-2s-kMa"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Jbf-YH-Xty" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="14" id="9XS-uZ-bUA"/>
+                <constraint firstItem="Jbf-YH-Xty" firstAttribute="leading" secondItem="Xr5-yv-VRR" secondAttribute="trailing" constant="5" id="J8V-nc-SY0"/>
+                <constraint firstItem="Xr5-yv-VRR" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="25" id="Kps-9g-FTp"/>
+                <constraint firstItem="Xr5-yv-VRR" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="QSJ-b2-Kjj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Jbf-YH-Xty" secondAttribute="trailing" constant="14" id="xcg-RP-A5P"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>

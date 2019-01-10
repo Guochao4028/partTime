@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="SearchHeardCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Work Filters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZm-uM-H5J">
+                        <rect key="frame" x="14" y="20" width="91" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.020130414520000001" green="0.3509634137" blue="0.99669522050000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKw-Qv-arm" userLabel="line">
+                        <rect key="frame" x="0.0" y="89" width="320" height="0.5"/>
+                        <color key="backgroundColor" red="0.9246935248374939" green="0.92881292104721069" blue="0.93166518211364746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="OWk-8e-qFb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loction" translatesAutoresizingMaskIntoConstraints="NO" id="nZV-Ge-D4N">
+                        <rect key="frame" x="14" y="51" width="17" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="17" id="3Z3-Ty-Ip3"/>
+                            <constraint firstAttribute="height" constant="17" id="NEQ-Z8-HW4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elD-uQ-dD9">
+                        <rect key="frame" x="38" y="51" width="0.0" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.59491491317749023" green="0.59912598133087158" blue="0.60250645875930786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dZm-uM-H5J" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="Bnv-Yf-SXw"/>
+                    <constraint firstItem="dZm-uM-H5J" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="Sbp-gn-6n5"/>
+                    <constraint firstItem="nZV-Ge-D4N" firstAttribute="top" secondItem="dZm-uM-H5J" secondAttribute="bottom" constant="10" id="Yot-Mh-Lkw"/>
+                    <constraint firstAttribute="bottom" secondItem="PKw-Qv-arm" secondAttribute="bottom" id="iBZ-oc-aMd"/>
+                    <constraint firstItem="nZV-Ge-D4N" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="lPi-Ge-7oH"/>
+                    <constraint firstItem="elD-uQ-dD9" firstAttribute="top" secondItem="nZV-Ge-D4N" secondAttribute="top" id="qTn-Qd-VQy"/>
+                    <constraint firstItem="elD-uQ-dD9" firstAttribute="bottom" secondItem="nZV-Ge-D4N" secondAttribute="bottom" id="qap-7o-92r"/>
+                    <constraint firstItem="elD-uQ-dD9" firstAttribute="leading" secondItem="nZV-Ge-D4N" secondAttribute="trailing" constant="7" id="rqt-cj-DlU"/>
+                    <constraint firstItem="PKw-Qv-arm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="s79-8B-JUU"/>
+                    <constraint firstAttribute="trailing" secondItem="PKw-Qv-arm" secondAttribute="trailing" id="zmv-WZ-yhq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="cityLabel" destination="elD-uQ-dD9" id="Qbs-yB-Vn2"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="47"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="loction" width="35" height="35"/>
+    </resources>
+</document>

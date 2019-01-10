@@ -1,0 +1,28 @@
+//
+//  ayl-Prefix.pch
+//  AYLWantToLive
+//
+//  Created by AYLiOS on 2018/12/19.
+//  Copyright © 2018 AYLiOS. All rights reserved.
+//
+
+#ifndef ayl_Prefix_pch
+#define ayl_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "MJExtension.h"
+#import "DefinedKeys.h"
+#import "AFNetworking.h"
+#import "DefinedBlock.h"
+#import "UIImageView+WebCache.h"
+
+
+
+#endif
+#endif /* ayl_Prefix_pch */
